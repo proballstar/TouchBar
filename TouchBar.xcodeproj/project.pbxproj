@@ -13,6 +13,13 @@
 		8B3F92DB229615240024ABEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3F92D9229615240024ABEB /* Main.storyboard */; };
 		8B3F92E7229615240024ABEB /* TouchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F92E6229615240024ABEB /* TouchBarTests.swift */; };
 		8B3F92F2229615240024ABEB /* TouchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F92F1229615240024ABEB /* TouchBarUITests.swift */; };
+		8B3F93002296157C0024ABEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F92FF2296157C0024ABEB /* Constants.swift */; };
+		8B3F93022296159F0024ABEB /* Glue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F93012296159F0024ABEB /* Glue.swift */; };
+		8B3F9304229616330024ABEB /* ToolbarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F9303229616330024ABEB /* ToolbarSlider.swift */; };
+		8B3F9306229616710024ABEB /* TouchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F9305229616710024ABEB /* TouchBarView.swift */; };
+		8B3F93082296168E0024ABEB /* TouchBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F93072296168E0024ABEB /* TouchBarWindow.swift */; };
+		8B3F930A229616B10024ABEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F9309229616B10024ABEB /* main.swift */; };
+		8B3F930C229616C10024ABEB /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F930B229616C10024ABEB /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,13 @@
 		8B3F92ED229615240024ABEB /* TouchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3F92F1229615240024ABEB /* TouchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarUITests.swift; sourceTree = "<group>"; };
 		8B3F92F3229615240024ABEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3F92FF2296157C0024ABEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B3F93012296159F0024ABEB /* Glue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glue.swift; sourceTree = "<group>"; };
+		8B3F9303229616330024ABEB /* ToolbarSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSlider.swift; sourceTree = "<group>"; };
+		8B3F9305229616710024ABEB /* TouchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarView.swift; sourceTree = "<group>"; };
+		8B3F93072296168E0024ABEB /* TouchBarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarWindow.swift; sourceTree = "<group>"; };
+		8B3F9309229616B10024ABEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8B3F930B229616C10024ABEB /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,13 @@
 				8B3F92D9229615240024ABEB /* Main.storyboard */,
 				8B3F92DC229615240024ABEB /* Info.plist */,
 				8B3F92DD229615240024ABEB /* TouchBar.entitlements */,
+				8B3F92FF2296157C0024ABEB /* Constants.swift */,
+				8B3F93012296159F0024ABEB /* Glue.swift */,
+				8B3F9303229616330024ABEB /* ToolbarSlider.swift */,
+				8B3F9305229616710024ABEB /* TouchBarView.swift */,
+				8B3F93072296168E0024ABEB /* TouchBarWindow.swift */,
+				8B3F9309229616B10024ABEB /* main.swift */,
+				8B3F930B229616C10024ABEB /* util.swift */,
 			);
 			path = TouchBar;
 			sourceTree = "<group>";
@@ -254,8 +275,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3F93082296168E0024ABEB /* TouchBarWindow.swift in Sources */,
+				8B3F9306229616710024ABEB /* TouchBarView.swift in Sources */,
+				8B3F930A229616B10024ABEB /* main.swift in Sources */,
+				8B3F930C229616C10024ABEB /* util.swift in Sources */,
 				8B3F92D6229615240024ABEB /* ViewController.swift in Sources */,
+				8B3F9304229616330024ABEB /* ToolbarSlider.swift in Sources */,
 				8B3F92D4229615240024ABEB /* AppDelegate.swift in Sources */,
+				8B3F93022296159F0024ABEB /* Glue.swift in Sources */,
+				8B3F93002296157C0024ABEB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
